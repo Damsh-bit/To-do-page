@@ -1,0 +1,156 @@
+body,html{
+    height: 100%;
+    background-image: url("../img/fondo_log_reg.jpg");
+    background-attachment: fixed;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.row{
+    width:400px;
+    height: 600px;
+    padding: 20px 20px 10px 20px;
+    background: #333333;
+    text-align: center;
+    border-radius: 0px 20px 20px 0px;
+}
+
+.alert{
+    align-items: center;
+}
+
+.box{
+    padding: 30px 0px 0px 0px;
+    
+}
+
+.box-register{
+    padding: 40px 0px 0px 0px;
+}
+
+.bienvenidoText{
+    color:white;
+    font-size: 45px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.slogan{
+    color: #fff;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.h1Login{
+    color:#fff;
+    margin-top: 0px;
+    padding-bottom: 10px;
+    padding-top:40px;
+
+}
+
+.form-label{
+    color:white;
+    font-size: 16px;
+   
+    
+}
+
+.row button{
+    margin-top: 15px;
+    width: 250px;
+    border-radius: 50px;
+}
+
+.row input{
+    font-size: 13px;
+    border: none;
+    
+}
+
+.helpPass{
+    padding: 6px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: normal;
+    text-align: right;
+}
+
+.register{
+    font-size: 12px;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.imagenFondo img{
+    height: 600px;
+    width: 600px;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.bad{
+    position: absolute;
+    bottom: 200px; top: 0px; 
+    width: 988px;
+    height: 40px;
+    display: flex;
+    padding: 0px;
+    border-radius: 13px 13px 0px 0px;
+    background: rgb(124, 26, 26);
+    margin-top: 160px;
+    margin-left: 13px;
+    
+}
+
+.ya_existe{
+    height: 22px;
+    width: 350px;
+    border-radius: 13px 13px 0px 0px;
+    background: rgb(124, 26, 26);
+    font-size: 19px;
+    margin-top: 19px;
+    color: #fff;
+}
+
+.error_logeo{
+    margin: auto;
+    width: 45%;
+    font-size: 19px;
+    color: #fff;
+    font-weight: normal;
+}
+
+.ok-div{
+    position: absolute;
+    bottom: 200px; top: 0px; 
+    left: 459px;
+    width: 988px;
+    height: 40px;
+    display: flex;
+    padding: 0px;
+    border-radius: 13px 13px 0px 0px;
+    background: rgb(20, 153, 38);
+    margin-top: 160px;
+    margin-left: 13px;
+}
+
+.ok{
+    margin: auto;
+    width: 45%;
+    font-size: 19px;
+    color: #fff;
+    font-weight: normal;
+}

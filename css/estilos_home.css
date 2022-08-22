@@ -1,0 +1,486 @@
+body,html{
+    height: 100%;
+    background-image: url("../img/fondo.jpg.jpg");
+    background-attachment: fixed;
+}
+
+.contenedor{ 
+    width: 70%;
+    height: 100% max-content;
+    color: black;
+    margin: auto;
+    background-color: #212325;
+    box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+}
+
+.contenedor-tareas-diarias{
+    width: 70%;
+    height: 100% max-content;
+    min-height: 1000px !important; 
+    color: black;
+    margin: auto;
+    background-color: #212325;
+    box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+}
+
+.Cartel-Usuario{
+    vertical-align: middle;
+    text-align: center;
+    padding-top: 30px;
+    color: white;
+    text-decoration: underline rgb(255, 124, 200);
+}
+
+
+.header-index{
+    padding-top: 100px;
+    padding-left: 20px;
+    background-color: #101114;
+    border-bottom: 1px solid rgb(255, 124, 200);
+}
+
+.header-add{
+    padding-top: 100px;
+    padding-left: 20px;
+    background-color: #101114;
+    border-bottom: 1px solid #78ff09;
+}
+
+.header-fin{
+    padding-top: 100px;
+    padding-left: 20px;
+    background-color: #101114;
+    border-bottom: 1px solid #51047e;
+    margin: 0px;
+}
+
+.header-mistareas{
+    padding-top: 50px;
+    padding-left: 20px;
+    background-color: #101114;
+    border-bottom: 1px solid #00ffff;
+}
+
+.header-act{
+    padding-top: 100px;
+    padding-left: 20px;
+    background-color: #101114;
+    border-bottom: 1px solid orange;
+}
+
+.header-delete{
+    padding-top: 100px;
+    padding-left: 20px;
+    background-color: #101114;
+    border-bottom: 1px solid red;
+}
+
+.div-addtareas{
+    padding-left:100px;
+    padding-right:100px;
+    padding-top: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #18191d;
+}
+
+
+.title{
+    padding-bottom: 35px;
+    color: #ffff;
+    font-weight: bold;
+   
+}
+
+.title-agrega{
+    padding-bottom: 10px;
+    margin:0px ;
+    color: #ffff;
+    font-weight: bold;
+    font-size: 38px;
+    width: 40%;
+}
+
+.form-add{
+    background-color: #101114;
+    border-radius: 20px;
+    padding: 20px 20px 20px 20px ;
+}
+
+.form-label{
+    font-size: 26px;
+    color: #ffff;
+    margin:0px auto;
+}
+
+.asd{
+    padding-top: 200px;
+    margin-top: 200px;
+}
+
+.form-control{
+    margin-bottom: 25px;
+    margin:0px auto;
+    width: 800px;
+}
+
+.formulario_add{
+    width: 50%;
+    margin:0px auto;
+}
+
+.linea-add{
+    color:#78ff09;
+}
+
+.img-hoja{
+    float: left;
+    margin-top: 90px;
+}
+
+.text{
+    margin-bottom: 20px;
+    margin:0px auto;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.fecha{
+    margin-bottom: 10px;
+}
+
+.formulario_add button{
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 300px;
+}
+
+.tareas_hoy{
+    margin-top: 7px;
+    color: #ffff;
+    padding: auto;
+    text-align: center;
+}
+
+.tarea_guardada_correctamente{
+    margin-top: 40px;
+    background-color: rgb(2, 117, 17);
+    color: #ffff;
+    border-radius: 10px;
+}
+
+.btn_ir_tareas{
+    width: 200px;
+    background-color: rgb(255, 124, 200);
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-bottom: 6px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-decoration: none;
+    color: #ffff;
+    display: inline-block;
+}
+
+.btn_ir_agregar_tareas{
+    width: 200px;
+    background-color: rgb(18, 217, 243);
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-bottom: 6px;
+    font-weight: bold;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-decoration: none;
+    color: #101114;
+    display: inline-block;
+}
+
+.btn_ir_tareas_finalizadas{
+    width: 200px;
+    background-color: #51047e;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-bottom: 6px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-decoration: none;
+    color: #ffff;
+    display: inline-block;
+}
+
+.div-mis-tareas{
+    background-color: #101114;
+    width: 790px;
+    height: auto;
+    color: #ffff;
+    margin-left: 250px !important;
+    border-radius: 40px;
+    padding: 30px;
+    margin: 15px;
+    font-size:12px;
+    text-align: left;
+    border: 1px solid rgb(23, 202, 226);
+    box-shadow: -1px 8px 28px 2px rgba(0,0,0,1);
+    -webkit-box-shadow: -1px 8px 28px 2px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 8px 28px 2px rgba(0,0,0,1);
+
+    
+}
+
+.div-mis-tareas-index{
+    background-color: #101114;
+    width: 790px;
+    height: auto;
+    color: #ffff;
+    margin-left: 250px !important;
+    border-radius: 40px;
+    padding: 30px;
+    margin: 15px;
+    font-size:12px;
+    text-align: left;
+    border: 1px solid rgb(255, 124, 200);
+    box-shadow: -1px 8px 28px 2px rgba(0,0,0,1);
+    -webkit-box-shadow: -1px 8px 28px 2px rgba(0,0,0,1);
+    -moz-box-shadow: -1px 8px 28px 2px rgba(0,0,0,1);
+    
+}
+
+.contenedor-tareas{
+    text-align: center;
+    width: 70%;
+    height: auto !important;
+    min-height: auto;
+    overflow:auto;
+    margin: auto;
+    background-color: #212325;
+    box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffff;  
+}
+
+.contenedor-tareas-finalizadas{
+    text-align: center;
+    width: 70%;
+    height: max-content;
+    margin: auto;
+    margin-top: -40px;
+    background-color: #212325;
+    box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+    -moz-box-shadow: -2px 1px 20px -6px rgba(0,0,0,0.75);
+    padding-top: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    color: #ffff;  
+}
+
+.div-tareas_individuales{
+    margin: 40px;
+    height: 600px;
+    width: 600px;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    text-align: center; 
+    background-color: #111114;
+    color: #18191d;
+    padding-top: 25px;
+    font-weight: bold;
+}
+
+.mostrar-tareas-inicio{
+    width: 700px;
+    height: 625px;
+    text-align: center;
+    margin: 0px auto;
+    background-color: #101114;
+    border-radius: 50px;
+}
+
+.mostrar-tareas{
+    width: 700px;
+    height: 625px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 45%;
+    background-color: #101114;
+    border-radius: 50px;
+}
+
+.mostrar-tareas-finalizadas{
+    width: 700px;
+    height: 625px;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 35%;
+    background-color: #101114;
+    border-radius: 50px;
+}
+.btn_modificar{
+    background-color: orange;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 10px;
+    padding-bottom: 6px;
+    -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+    
+}
+
+.btn_quitar{
+    background-color: red;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 5px;
+    padding-bottom: 6px;
+    width: 100px;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    
+}
+
+.btn_quitar:hover {
+    color: black;
+  }
+
+
+.btn_finalizar{
+    display: inline-block;
+    background-color: green;
+    margin-top: 15px;
+    margin-right: 20px;
+    margin-left: 5px;
+    padding-bottom: 6px;
+    -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+}
+
+.btn_mod{
+    display: inline-block;
+    background-color: orange;
+    -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #ffff;
+  height: 38px;
+  width: 300px;
+}
+
+.btn_quitar2{
+    display: inline-block;
+    background-color:red;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: #ffff;
+    height: 38px;
+    width: 300px;
+}
+
+.btn_salir{
+    margin-top: 10px;
+    margin-right: 15px;
+    text-decoration: none;
+    background-color: rgb(255, 238, 0);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    color: rgb(121, 107, 107);
+    height: 30px;
+    width: 60px;
+    text-align: center;
+}
+
+.btn_salir:hover{
+    color: #ffff;
+}
+
+.usuario_iniciado{
+    text-decoration: none;
+    color: #ffff;
+    padding-top: 10px;
+    padding-right: 15px;
+
+}
+
+
+.div-mis-tareas p{
+    border-top: 1px solid #00ffff;
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+
+.div-mis-tareas a{
+    float: right;
+    padding-top: 5px;
+    font-size: 19px;
+}
+
+.div-mis-tareas b{
+    font-weight: normal;
+    padding-top: 5px;
+    font-size: 19px;
+}
+
+.div-mis-tareas h7{
+
+    font-weight: normal;
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+
+.div-mis-tareas-index p{
+    border-top: 1px solid rgb(255, 124, 200);
+    padding-top: 5px;
+    font-size: 18px;
+}
+
+
+.div-mis-tareas-index a{
+    float: right;
+    padding-top: 5px;
+    font-size: 19px;
+}
+
+.div-mis-tareas-index b{
+    font-weight: normal;
+    padding-top: 5px;
+    font-size: 19px;
+}
+
+.div-mis-tareas-index h7{
+
+    font-weight: normal;
+    padding-top: 20px;
+    font-size: 19px;
+}
+
+.img-cerebro{
+    margin-top: 60px;
+}
